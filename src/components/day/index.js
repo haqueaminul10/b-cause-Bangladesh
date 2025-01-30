@@ -10,7 +10,7 @@ const DayTable = () => {
           <thead className=''>
             <tr>
               <th className='py-2   border-b text-center border border-black  lg:w-[150px]'>
-                <div className='w-[100px]'>{translations.day}</div>
+                <div className='w-[100px] lg:pl-10'>{translations.day}</div>
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
                 {translations.Estimated_Number}
@@ -41,7 +41,7 @@ const DayTable = () => {
           <tbody>
             {data.map((item) => (
               <tr key={item.id}>
-                <td className='py-2 px-[25px] border-b border border-black text-center  '>
+                <td className='py-2 px-[28px] border-b border border-black text-center  '>
                   {item.day}
                 </td>
                 <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>

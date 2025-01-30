@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className='mb-6'>
-        <h1 className='text-center font-semibold text-[20px]'>
+        <h1 className='text-center font-semibold text-[30px]'>
           {translations.heading}
         </h1>
       </div>
