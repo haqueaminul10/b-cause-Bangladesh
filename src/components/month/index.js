@@ -7,7 +7,7 @@ const MonthTable = () => {
         <table className='min-w-full bg-white border border-black'>
           <thead className=''>
             <tr>
-              <th className='lg:py-2 lg:px-4 border-b text-center border border-black  lg:w-[150px]  '>
+              <th className='px-[17px]   lg:py-2 lg:px-4 border-b text-center border border-black  lg:w-[150px]  '>
                 Month
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>

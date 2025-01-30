@@ -7,7 +7,7 @@ const DayTable = () => {
         <table className='min-w-full bg-white border border-black'>
           <thead className=''>
             <tr>
-              <th className='lg:py-2 lg:px-4  border-b text-center border border-black lg:w-[150px] '>
+              <th className='py-2 px-[27px]  border-b text-center border border-black  lg:w-[150px]'>
                 Day
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
@@ -36,7 +36,7 @@ const DayTable = () => {
           <tbody>
             {data.map((item) => (
               <tr key={item.id}>
-                <td className='lg:py-2 lg:px-4 border-b border border-black text-center  '>
+                <td className='py-2 px-[25px] border-b border border-black text-center  '>
                   {item.day}
                 </td>
                 <td className='py-2 px-4 border-b border border-black text-center'>
