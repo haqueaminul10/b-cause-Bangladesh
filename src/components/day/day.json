@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "day": 1,
+    "day": "1日",
     "estimated_number": 100,
     "estimated_amount": 1500,
     "number_of_order": 90,
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "day": 2,
+    "day": "2日",
     "estimated_number": 120,
     "estimated_amount": 1800,
     "number_of_order": 110,
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "day": 3,
+    "day": "3日",
     "estimated_number": 130,
     "estimated_amount": 1950,
     "number_of_order": 120,
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "day": 4,
+    "day": "4日",
     "estimated_number": 140,
     "estimated_amount": 2100,
     "number_of_order": 130,
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "day": 5,
+    "day": "5日",
     "estimated_number": 150,
     "estimated_amount": 2250,
     "number_of_order": 140,
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "day": 6,
+    "day": "6日",
     "estimated_number": 160,
     "estimated_amount": 2400,
     "number_of_order": 150,
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "day": 7,
+    "day": "7日",
     "estimated_number": 170,
     "estimated_amount": 2550,
     "number_of_order": 160,
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "day": 8,
+    "day": "8日",
     "estimated_number": 180,
     "estimated_amount": 2700,
     "number_of_order": 170,
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "day": 9,
+    "day": "9日",
     "estimated_number": 190,
     "estimated_amount": 2850,
     "number_of_order": 180,
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "day": 10,
+    "day": "10日",
     "estimated_number": 200,
     "estimated_amount": 3000,
     "number_of_order": 190,
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "day": 11,
+    "day": "11日",
     "estimated_number": 210,
     "estimated_amount": 3150,
     "number_of_order": 200,
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "day": 12,
+    "day": "12日",
     "estimated_number": 220,
     "estimated_amount": 3300,
     "number_of_order": 210,
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "day": 13,
+    "day": "13日",
     "estimated_number": 230,
     "estimated_amount": 3450,
     "number_of_order": 220,
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "day": 14,
+    "day": "14日",
     "estimated_number": 240,
     "estimated_amount": 3600,
     "number_of_order": 230,
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "day": 15,
+    "day": "15日",
     "estimated_number": 250,
     "estimated_amount": 3750,
     "number_of_order": 240,
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "day": 16,
+    "day": "16日",
     "estimated_number": 260,
     "estimated_amount": 3900,
     "number_of_order": 250,
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "day": 17,
+    "day": "17日",
     "estimated_number": 270,
     "estimated_amount": 4050,
     "number_of_order": 260,
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "day": 18,
+    "day": "18日",
     "estimated_number": 280,
     "estimated_amount": 4200,
     "number_of_order": 270,
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "day": 19,
+    "day": "19日",
     "estimated_number": 290,
     "estimated_amount": 4350,
     "number_of_order": 280,
@@ -210,7 +210,7 @@
   },
   {
     "id": 20,
-    "day": 20,
+    "day": "20日",
     "estimated_number": 300,
     "estimated_amount": 4500,
     "number_of_order": 290,
@@ -221,7 +221,7 @@
   },
   {
     "id": 21,
-    "day": 21,
+    "day": "21日",
     "estimated_number": 310,
     "estimated_amount": 4650,
     "number_of_order": 300,
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "day": 22,
+    "day": "22日",
     "estimated_number": 320,
     "estimated_amount": 4800,
     "number_of_order": 310,
@@ -243,7 +243,7 @@
   },
   {
     "id": 23,
-    "day": 23,
+    "day": "23日",
     "estimated_number": 330,
     "estimated_amount": 4950,
     "number_of_order": 320,
@@ -254,7 +254,7 @@
   },
   {
     "id": 24,
-    "day": 24,
+    "day": "24日",
     "estimated_number": 340,
     "estimated_amount": 5100,
     "number_of_order": 330,
@@ -265,7 +265,7 @@
   },
   {
     "id": 25,
-    "day": 25,
+    "day": "25日",
     "estimated_number": 350,
     "estimated_amount": 5250,
     "number_of_order": 340,
@@ -276,7 +276,7 @@
   },
   {
     "id": 26,
-    "day": 26,
+    "day": "26日",
     "estimated_number": 360,
     "estimated_amount": 5400,
     "number_of_order": 350,
@@ -287,7 +287,7 @@
   },
   {
     "id": 27,
-    "day": 27,
+    "day": "27日",
     "estimated_number": 370,
     "estimated_amount": 5550,
     "number_of_order": 360,
@@ -298,7 +298,7 @@
   },
   {
     "id": 28,
-    "day": 28,
+    "day": "28日",
     "estimated_number": 380,
     "estimated_amount": 5700,
     "number_of_order": 370,
@@ -309,7 +309,7 @@
   },
   {
     "id": 29,
-    "day": 29,
+    "day": "29日",
     "estimated_number": 390,
     "estimated_amount": 5850,
     "number_of_order": 380,
@@ -320,7 +320,7 @@
   },
   {
     "id": 30,
-    "day": 30,
+    "day": "30日",
     "estimated_number": 400,
     "estimated_amount": 6000,
     "number_of_order": 390,

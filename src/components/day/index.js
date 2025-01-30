@@ -1,6 +1,8 @@
+import { useI18n } from '../../../I18nProvider';
 import data from './day.json';
 
 const DayTable = () => {
+  const { translations } = useI18n();
   return (
     <>
       <div className='overflow-x-auto max-w-full'>
@@ -8,28 +10,28 @@ const DayTable = () => {
           <thead className=''>
             <tr>
               <th className='py-2 px-[27px]  border-b text-center border border-black  lg:w-[150px]'>
-                Day
+                {translations.day}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                Estimated Number
+                {translations.Estimated_Number}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                Estimated Amount
+                {translations.Estimated_Amount}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                Number of Order
+                {translations.Number_of_Order}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                Order Amount
+                {translations.Order_Amount}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                %(Number)
+                {translations.pNumber}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                Site Estimation Number
+                {translations.Site_Estimation_Number}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
-                Site Estimation PE
+                {translations.Site_Estimation_PE}
               </th>
             </tr>
           </thead>

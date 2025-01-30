@@ -1,0 +1,21 @@
+{
+  "heading": "Monthly, daily, by day Sales",
+  "search": "search...",
+  "clear": "Clear",
+  "filter1": "Fiscal Year",
+  "filter2": "Applicable month",
+  "filter3": "Team name",
+  "filter4": "Comp. classification",
+  "filter5": "New/existing",
+  "filter6": "Number by day",
+  "day": "Day",
+  "month": "Month",
+  "week": "By Day",
+  "Estimated_Number": "Estimated Number",
+  "Estimated_Amount": "Estimated Amount",
+  "Number_of_Order": "Number of Order",
+  "Order_Amount": "Order Amount",
+  "pNumber": "%(Number)",
+  "Site_Estimation_Number": "Site Estimation Number",
+  "Site_Estimation_PE": "Site Estimation PE"
+}

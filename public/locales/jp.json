@@ -1,0 +1,21 @@
+{
+  "heading": "月・曜日・日別集計",
+  "search": "検 索",
+  "clear": "クリア",
+  "filter1": "年度で該当する年度",
+  "filter2": "該当する月",
+  "filter3": "チーム名",
+  "filter4": "企業区分",
+  "filter5": "企業区分",
+  "filter6": "日ごとの数字",
+  "day": "日",
+  "month": "月別",
+  "week": "曜日別",
+  "Estimated_Number": "見積件数",
+  "Estimated_Amount": "見積額",
+  "Number_of_Order": "受注件数",
+  "Order_Amount": "受注額",
+  "pNumber": "%(件数)",
+  "Site_Estimation_Number": "Web見積件数",
+  "Site_Estimation_PE": "Web見積金額"
+}

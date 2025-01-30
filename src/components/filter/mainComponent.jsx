@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import MultiSelect from './index';
+import { useI18n } from '../../../I18nProvider';
 
 const categories = {
   year: [
@@ -44,6 +45,7 @@ const categories = {
 };
 
 const MainComponent = () => {
+  const { translations } = useI18n();
   const [selectYear, setSelectYear] = useState('');
   const [selectedMonth, setSelectedMonth] = useState('');
   const [selectedTrading, setSelectedTrading] = useState('');
@@ -66,7 +68,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='year'
-              label='Fiscal Year'
+              label={translations.filter1}
               options={categories.year}
               selectedValue={selectYear}
               onChange={handleCarChange}
@@ -75,7 +77,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='month'
-              label='Applicable month				'
+              label={translations.filter2}
               options={categories.month}
               selectedValue={selectedMonth}
               onChange={handleFoodChange}
@@ -86,7 +88,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='trading'
-              label='Team name		'
+              label={translations.filter3}
               options={categories.trading}
               selectedValue={selectedTrading}
               onChange={handleTradding}
@@ -95,7 +97,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='department'
-              label='New/existing							'
+              label={translations.filter4}
               options={categories.department}
               selectedValue={selectedDepartment}
               onChange={handleDepartment}
@@ -106,7 +108,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='clientType'
-              label='Number by day			'
+              label={translations.filter5}
               options={categories.clientType}
               selectedValue={selectedClientType}
               onChange={handleClientType}
@@ -115,7 +117,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='clientStatus'
-              label='Numbers by month				'
+              label={translations.filter6}
               options={categories.clientStatus}
               selectedValue={selectedClientStatus}
               onChange={handleClientStatus}
