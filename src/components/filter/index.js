@@ -1,14 +1,20 @@
 import React from 'react';
 
-const MultiSelect = ({ name, options, selectedValue, onChange }) => {
+const MultiSelect = ({ name, label, options, selectedValue, onChange }) => {
   return (
     <div className='inline-block  '>
+      <label
+        htmlFor={name}
+        className='block text-sm font-medium text-gray-700 mb-1'
+      >
+        {label}
+      </label>
       <select
         id={name}
         name={name}
         value={selectedValue}
         onChange={onChange}
-        className='w-[150px] sm:w-[140px] border border-black'
+        className='w-[130px] sm:w-[130px] border border-black'
       >
         {options.map((option) => (
           <option

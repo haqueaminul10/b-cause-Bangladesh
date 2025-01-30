@@ -1,14 +1,29 @@
+import React, { useState } from 'react';
+
 const SearchSection = () => {
+  const [inputValue, setInputValue] = useState('');
+
+  const handleClear = () => {
+    setInputValue('');
+  };
+
   return (
     <div className='flex items-center gap-6'>
       <div>
         <input
           type='text'
-          className='border border-black w-[150px] h-[30px] sm:w-full'
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          className='border border-black w-[150px] h-[30px] sm:w-full bg-yellow-400 px-2'
         />
       </div>
       <div>
-        <button className='bg-black text-white p-1  rounded-md'>Clear</button>
+        <button
+          onClick={handleClear}
+          className='bg-yellow-400 text-black p-1 rounded-md'
+        >
+          Clear
+        </button>
       </div>
     </div>
   );

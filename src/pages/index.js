@@ -15,7 +15,7 @@ export default function Home() {
       <div className='mb-2'>
         <SearchSection />
       </div>
-      <div className='mb-2'>
+      <div className='mb-2 '>
         <FilterComponent />
       </div>
       <div className='mb-4'>

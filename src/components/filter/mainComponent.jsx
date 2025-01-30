@@ -60,51 +60,53 @@ const MainComponent = () => {
     setSelectedClientStatus(event.target.value);
 
   return (
-    <div className='flex justify-center lg:justify-start '>
-      <div className='lg:flex lg:items-center gap-4'>
-        <div className='sm:flex sm:items-center sm:gap-4 sm:justify-center'>
-          <div className='flex items-center gap-4 mb-4 sm:gap-2'>
-            <div>
-              <MultiSelect
-                name='year'
-                options={categories.year}
-                selectedValue={selectYear}
-                onChange={handleCarChange}
-              />
-            </div>
-            <div>
-              <MultiSelect
-                name='month'
-                options={categories.month}
-                selectedValue={selectedMonth}
-                onChange={handleFoodChange}
-              />
-            </div>
+    <>
+      <div className='grid sm:grid-cols-[1fr,1fr] gap-6 lg:w-[700px] lg:grid-cols-[1fr,1fr,1fr] lg:gap-8'>
+        <div className='flex items-center gap-4 '>
+          <div>
+            <MultiSelect
+              name='year'
+              label='Fiscal Year'
+              options={categories.year}
+              selectedValue={selectYear}
+              onChange={handleCarChange}
+            />
           </div>
-
-          <div className='flex items-center gap-4 mb-4 sm:gap-2 '>
-            <div>
-              <MultiSelect
-                name='trading'
-                options={categories.trading}
-                selectedValue={selectedTrading}
-                onChange={handleTradding}
-              />
-            </div>
-            <div>
-              <MultiSelect
-                name='department'
-                options={categories.department}
-                selectedValue={selectedDepartment}
-                onChange={handleDepartment}
-              />
-            </div>
+          <div>
+            <MultiSelect
+              name='month'
+              label='Applicable month				'
+              options={categories.month}
+              selectedValue={selectedMonth}
+              onChange={handleFoodChange}
+            />
           </div>
         </div>
-        <div className='flex items-center gap-4 mb-4 sm:justify-center lg:gap-2'>
+        <div className='flex items-center gap-4 '>
+          <div>
+            <MultiSelect
+              name='trading'
+              label='Team name		'
+              options={categories.trading}
+              selectedValue={selectedTrading}
+              onChange={handleTradding}
+            />
+          </div>
+          <div>
+            <MultiSelect
+              name='department'
+              label='New/existing							'
+              options={categories.department}
+              selectedValue={selectedDepartment}
+              onChange={handleDepartment}
+            />
+          </div>
+        </div>
+        <div className='flex items-center gap-4 '>
           <div>
             <MultiSelect
               name='clientType'
+              label='Number by day			'
               options={categories.clientType}
               selectedValue={selectedClientType}
               onChange={handleClientType}
@@ -113,6 +115,7 @@ const MainComponent = () => {
           <div>
             <MultiSelect
               name='clientStatus'
+              label='Numbers by month				'
               options={categories.clientStatus}
               selectedValue={selectedClientStatus}
               onChange={handleClientStatus}
@@ -120,7 +123,7 @@ const MainComponent = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

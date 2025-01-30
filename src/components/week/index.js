@@ -8,7 +8,7 @@ const WeekTable = () => {
           <thead className=''>
             <tr>
               <th className='  lg:py-2 lg:px-4 border-b text-center border border-black lg:w-[150px] '>
-                Day
+                By Day
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
                 Estimated Number
