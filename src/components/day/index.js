@@ -39,25 +39,25 @@ const DayTable = () => {
                 <td className='py-2 px-[25px] border-b border border-black text-center  '>
                   {item.day}
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.estimated_number}
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.estimated_amount}
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.number_of_order}
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.order_amount}
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.percent_number}%
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.siteestimation_number}
                 </td>
-                <td className='py-2 px-4 border-b border border-black text-center'>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.siteestimationpe}
                 </td>
               </tr>
