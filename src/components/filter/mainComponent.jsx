@@ -2,50 +2,50 @@ import React, { useState } from 'react';
 import MultiSelect from './index';
 import { useI18n } from '../../../I18nProvider';
 
-const categories = {
-  year: [
-    { value: '2025', label: '2025' },
-    { value: '2024', label: '2024' },
-    { value: '2023', label: '2023' },
-    { value: '2022', label: '2022' },
-  ],
-  month: [
-    { value: '1', label: '1' },
-    { value: '2', label: '2' },
-    { value: '3', label: '3' },
-    { value: '4', label: '4' },
-    { value: '5', label: '5' },
-    { value: '6', label: '6' },
-    { value: '7', label: '7' },
-    { value: '8', label: '8' },
-    { value: '9', label: '9' },
-    { value: '10', label: '10' },
-    { value: '11', label: '11' },
-    { value: '12', label: '12' },
-  ],
-  trading: [
-    { value: 'trading on', label: 'Trading On' },
-    { value: 'trading off', label: 'Trading Off' },
-  ],
-  department: [
-    { value: 'Department1', label: 'Department1' },
-    { value: 'Department2', label: 'Department2' },
-    { value: 'Department3', label: 'Department3' },
-  ],
-  clientType: [
-    { value: 'Client type1', label: 'Client type1' },
-    { value: 'Client type2', label: 'Client type2' },
-    { value: 'Client type3', label: 'Client type3' },
-  ],
-  clientStatus: [
-    { value: 'Client status1', label: 'Client status1' },
-    { value: 'Client status2', label: 'Client status2' },
-    { value: 'Client status3', label: 'Client status3' },
-  ],
-};
-
 const MainComponent = () => {
   const { translations } = useI18n();
+  const categories = {
+    year: [
+      { value: '2025', label: '2025' },
+      { value: '2024', label: '2024' },
+      { value: '2023', label: '2023' },
+      { value: '2022', label: '2022' },
+    ],
+    month: [
+      { value: '1', label: '1' },
+      { value: '2', label: '2' },
+      { value: '3', label: '3' },
+      { value: '4', label: '4' },
+      { value: '5', label: '5' },
+      { value: '6', label: '6' },
+      { value: '7', label: '7' },
+      { value: '8', label: '8' },
+      { value: '9', label: '9' },
+      { value: '10', label: '10' },
+      { value: '11', label: '11' },
+      { value: '12', label: '12' },
+    ],
+    trading: [
+      { value: 'trading on', label: `${translations.Trading_On}` },
+      { value: 'trading off', label: `${translations.Trading_Off}` },
+    ],
+    department: [
+      { value: 'Department1', label: `${translations.Department1}` },
+      { value: 'Department2', label: `${translations.Department2}` },
+      { value: 'Department3', label: `${translations.Department3}` },
+    ],
+    clientType: [
+      { value: 'Client type1', label: `${translations.Client_type1}` },
+      { value: 'Client type2', label: `${translations.Client_type2}` },
+      { value: 'Client type3', label: `${translations.Client_type3}` },
+    ],
+    clientStatus: [
+      { value: 'Client status1', label: `${translations.Client_status1}` },
+      { value: 'Client status2', label: `${translations.Client_status2}` },
+      { value: 'Client status3', label: `${translations.Client_status3}` },
+    ],
+  };
+
   const [selectYear, setSelectYear] = useState('');
   const [selectedMonth, setSelectedMonth] = useState('');
   const [selectedTrading, setSelectedTrading] = useState('');

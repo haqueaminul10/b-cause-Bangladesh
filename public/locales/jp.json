@@ -37,5 +37,16 @@
   "Thursday": "木曜日",
   "Friday": "金曜日",
   "Saturday": "土曜日",
-  "Sunday": "日曜日"
+  "Sunday": "日曜日",
+  "Trading_On": "チーム名",
+  "Trading_Off": "チーム名",
+  "Department1": "企業区分",
+  "Department2": "企業区分",
+  "Department3": "企業区分",
+  "Client_type1": "企業区分",
+  "Client_type2": "企業区分",
+  "Client_type3": "企業区分",
+  "Client_status1": "新規区分",
+  "Client_status2": "新規区分",
+  "Client_status3": "新規区分"
 }

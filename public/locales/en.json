@@ -37,5 +37,16 @@
   "Thursday": "Thursday",
   "Friday": "Friday",
   "Saturday": "Saturday",
-  "Sunday": "Sunday"
+  "Sunday": "Sunday",
+  "Trading_On": "Trading On",
+  "Trading_Off": "Trading Off",
+  "Department1": "Department1",
+  "Department2": "Department2",
+  "Department3": "Department3",
+  "Client_type1": "Client type1",
+  "Client_type2": "Client type2",
+  "Client_type3": "Client type3",
+  "Client_status1": "Client status1",
+  "Client_status2": "Client status2",
+  "Client_status3": "Client status3"
 }
