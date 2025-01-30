@@ -28,6 +28,9 @@ const DayTable = () => {
                 {translations.pNumber}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
+                {translations.pAmount}
+              </th>
+              <th className='py-2 px-4 border-b text-center border border-black'>
                 {translations.Site_Estimation_Number}
               </th>
               <th className='py-2 px-4 border-b text-center border border-black'>
@@ -55,6 +58,9 @@ const DayTable = () => {
                 </td>
                 <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.percent_number}%
+                </td>
+                <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
+                  {item.parcent_amount}%
                 </td>
                 <td className='py-2 px-4 border-b border border-black text-center bg-[#ffc000]'>
                   {item.siteestimation_number}

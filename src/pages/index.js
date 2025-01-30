@@ -14,21 +14,21 @@ export default function Home() {
         <LanguageSwitcher />
       </div>
 
-      <div className='mb-4'>
+      <div className='mb-6'>
         <h1 className='text-center font-semibold text-[20px]'>
           {translations.heading}
         </h1>
       </div>
-      <div className='mb-2'>
+      <div className='mb-8'>
         <SearchSection />
       </div>
-      <div className='mb-2 '>
+      <div className='mb-8 '>
         <FilterComponent />
       </div>
-      <div className='mb-4'>
+      <div className='mb-8'>
         <DayTable />
       </div>
-      <div className='mb-4'>
+      <div className='mb-8'>
         <MonthTable />
       </div>
       <div>

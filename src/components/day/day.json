@@ -7,6 +7,7 @@
     "number_of_order": 90,
     "order_amount": 1350,
     "percent_number": 90,
+    "parcent_amount": 97,
     "siteestimation_number": 110,
     "siteestimationpe": 0.75
   },
@@ -18,6 +19,7 @@
     "number_of_order": 110,
     "order_amount": 1650,
     "percent_number": 91.67,
+    "parcent_amount": 97,
     "siteestimation_number": 130,
     "siteestimationpe": 0.76
   },
@@ -29,6 +31,7 @@
     "number_of_order": 120,
     "order_amount": 1800,
     "percent_number": 92.31,
+    "parcent_amount": 97,
     "siteestimation_number": 140,
     "siteestimationpe": 0.77
   },
@@ -40,6 +43,7 @@
     "number_of_order": 130,
     "order_amount": 1950,
     "percent_number": 92.86,
+    "parcent_amount": 97,
     "siteestimation_number": 150,
     "siteestimationpe": 0.78
   },
@@ -51,6 +55,7 @@
     "number_of_order": 140,
     "order_amount": 2100,
     "percent_number": 93.33,
+    "parcent_amount": 97,
     "siteestimation_number": 160,
     "siteestimationpe": 0.79
   },
@@ -62,6 +67,7 @@
     "number_of_order": 150,
     "order_amount": 2250,
     "percent_number": 93.75,
+    "parcent_amount": 97,
     "siteestimation_number": 170,
     "siteestimationpe": 0.8
   },
@@ -73,6 +79,7 @@
     "number_of_order": 160,
     "order_amount": 2400,
     "percent_number": 94.12,
+    "parcent_amount": 97,
     "siteestimation_number": 180,
     "siteestimationpe": 0.81
   },
@@ -84,6 +91,7 @@
     "number_of_order": 170,
     "order_amount": 2550,
     "percent_number": 94.44,
+    "parcent_amount": 97,
     "siteestimation_number": 190,
     "siteestimationpe": 0.82
   },
@@ -95,6 +103,7 @@
     "number_of_order": 180,
     "order_amount": 2700,
     "percent_number": 94.74,
+    "parcent_amount": 97,
     "siteestimation_number": 200,
     "siteestimationpe": 0.83
   },
@@ -106,6 +115,7 @@
     "number_of_order": 190,
     "order_amount": 2850,
     "percent_number": 95,
+    "parcent_amount": 97,
     "siteestimation_number": 210,
     "siteestimationpe": 0.84
   },
@@ -117,6 +127,7 @@
     "number_of_order": 200,
     "order_amount": 3000,
     "percent_number": 95.24,
+    "parcent_amount": 97,
     "siteestimation_number": 220,
     "siteestimationpe": 0.85
   },
@@ -128,6 +139,7 @@
     "number_of_order": 210,
     "order_amount": 3150,
     "percent_number": 95.45,
+    "parcent_amount": 97,
     "siteestimation_number": 230,
     "siteestimationpe": 0.86
   },
@@ -139,6 +151,7 @@
     "number_of_order": 220,
     "order_amount": 3300,
     "percent_number": 95.65,
+    "parcent_amount": 97,
     "siteestimation_number": 240,
     "siteestimationpe": 0.87
   },
@@ -150,6 +163,7 @@
     "number_of_order": 230,
     "order_amount": 3450,
     "percent_number": 95.83,
+    "parcent_amount": 97,
     "siteestimation_number": 250,
     "siteestimationpe": 0.88
   },
@@ -161,6 +175,7 @@
     "number_of_order": 240,
     "order_amount": 3600,
     "percent_number": 96,
+    "parcent_amount": 97,
     "siteestimation_number": 260,
     "siteestimationpe": 0.89
   },
@@ -172,6 +187,7 @@
     "number_of_order": 250,
     "order_amount": 3750,
     "percent_number": 96.15,
+    "parcent_amount": 97,
     "siteestimation_number": 270,
     "siteestimationpe": 0.9
   },
@@ -183,6 +199,7 @@
     "number_of_order": 260,
     "order_amount": 3900,
     "percent_number": 96.3,
+    "parcent_amount": 97,
     "siteestimation_number": 280,
     "siteestimationpe": 0.91
   },
@@ -194,6 +211,7 @@
     "number_of_order": 270,
     "order_amount": 4050,
     "percent_number": 96.43,
+    "parcent_amount": 97,
     "siteestimation_number": 290,
     "siteestimationpe": 0.92
   },
@@ -205,6 +223,7 @@
     "number_of_order": 280,
     "order_amount": 4200,
     "percent_number": 96.55,
+    "parcent_amount": 97,
     "siteestimation_number": 300,
     "siteestimationpe": 0.93
   },
@@ -216,6 +235,7 @@
     "number_of_order": 290,
     "order_amount": 4350,
     "percent_number": 96.67,
+    "parcent_amount": 97,
     "siteestimation_number": 310,
     "siteestimationpe": 0.94
   },
@@ -227,6 +247,7 @@
     "number_of_order": 300,
     "order_amount": 4500,
     "percent_number": 96.77,
+    "parcent_amount": 97,
     "siteestimation_number": 320,
     "siteestimationpe": 0.95
   },
@@ -238,6 +259,7 @@
     "number_of_order": 310,
     "order_amount": 4650,
     "percent_number": 96.88,
+    "parcent_amount": 97,
     "siteestimation_number": 330,
     "siteestimationpe": 0.96
   },
@@ -249,6 +271,7 @@
     "number_of_order": 320,
     "order_amount": 4800,
     "percent_number": 97,
+    "parcent_amount": 97,
     "siteestimation_number": 340,
     "siteestimationpe": 0.97
   },
@@ -260,6 +283,7 @@
     "number_of_order": 330,
     "order_amount": 4950,
     "percent_number": 97.06,
+    "parcent_amount": 97,
     "siteestimation_number": 350,
     "siteestimationpe": 0.98
   },
@@ -271,6 +295,7 @@
     "number_of_order": 340,
     "order_amount": 5100,
     "percent_number": 97.14,
+    "parcent_amount": 97,
     "siteestimation_number": 360,
     "siteestimationpe": 0.99
   },
@@ -282,6 +307,7 @@
     "number_of_order": 350,
     "order_amount": 5250,
     "percent_number": 97.22,
+    "parcent_amount": 97,
     "siteestimation_number": 370,
     "siteestimationpe": 1
   },
@@ -293,6 +319,7 @@
     "number_of_order": 360,
     "order_amount": 5400,
     "percent_number": 97.3,
+    "parcent_amount": 97,
     "siteestimation_number": 380,
     "siteestimationpe": 1
   },
@@ -304,6 +331,7 @@
     "number_of_order": 370,
     "order_amount": 5550,
     "percent_number": 97.37,
+    "parcent_amount": 97,
     "siteestimation_number": 390,
     "siteestimationpe": 1
   },
@@ -315,6 +343,7 @@
     "number_of_order": 380,
     "order_amount": 5700,
     "percent_number": 97.44,
+    "parcent_amount": 97,
     "siteestimation_number": 400,
     "siteestimationpe": 1
   },
@@ -326,6 +355,7 @@
     "number_of_order": 390,
     "order_amount": 5850,
     "percent_number": 97.5,
+    "parcent_amount": 97,
     "siteestimation_number": 410,
     "siteestimationpe": 1
   }
